@@ -1,0 +1,32 @@
+.button {
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+.country {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.flag {
+    border: 1px solid black;
+}

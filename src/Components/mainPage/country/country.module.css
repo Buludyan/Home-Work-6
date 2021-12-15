@@ -1,0 +1,32 @@
+.country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.countryBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px 0;
+    height: 40px;
+    width: 60%;
+    background-color: rgb(174, 190, 235);
+}
+
+.countryBody:hover {
+    background-color: chartreuse;
+}
+
+.countryName {
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+
+.flag {
+    width: 30px;
+    margin-left: 5px;
+}
